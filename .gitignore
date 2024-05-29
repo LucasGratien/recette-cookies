@@ -1,0 +1,38 @@
+# Créé par https://www.toptal.com/developers/gitignore/api/linux,visualstudiocode
+# Modifier sur https://www.toptal.com/developers/gitignore?templates=linux,visualstudiocode
+
+###Linux ###
+*~
+
+# fichiers temporaires qui peuvent être créés si un processus a encore un handle ouvert sur un fichier supprimé
+.fuse_hidden*
+
+# Préférences du répertoire KDE
+.annuaire
+
+# Dossier poubelle Linux qui peut apparaître sur n'importe quelle partition ou disque
+.Poubelle-*
+
+# Les fichiers .nfs sont créés lorsqu'un fichier ouvert est supprimé mais est toujours accessible
+.nfs*
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-extraits
+
+# Historique local pour Visual Studio Code
+.histoire/
+
+# Création d'extensions de code Visual Studio
+*.vsix
+
+### Correctif VisualStudioCode ###
+# Ignorer tout l'historique local des fichiers
+.histoire
+.ionide
+
+# Fin de https://www.toptal.com/developers/gitignore/api/linux,visualstudiocode
